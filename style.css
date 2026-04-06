@@ -1,0 +1,65 @@
+body{
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 369;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 96.1;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    margin: auto;
+    width: 400px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    border: 1px solid black;
+    border-radius: 80px;
+    margin: 2px;
+    color: white;
+}
+
+.row{
+    margin: 2px 0px;
+}
+
+input{
+    width:325px;
+    margin-bottom: 10px;
+    height: 120px;
+    background-color: transparent;
+    border: 0px;
+    font-size: 50px;
+    color: white;
+}
+
+.band{
+    font-size: 30px;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.grey{
+    background-color: rgb(154, 151, 151);
+}
+
+.button:not(.orange):not(.grey){
+    background-color: blue;
+}
+
+.dgrey{
+    background-color: rgb(93, 90, 90);
+}
